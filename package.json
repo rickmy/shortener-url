@@ -1,6 +1,6 @@
 {
   "name": "shortener-url-with-domain",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "package",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
