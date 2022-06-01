@@ -1,11 +1,11 @@
 {
   "name": "shortener-url-with-domain",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "package",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.mjs",
-  "source": "src/index.js",
+  "source": "src/index.cjs",
   "type": "module",
   "scripts": {
     "test": "jest",
