@@ -1,6 +1,6 @@
 {
   "name": "shortener-url-with-domain",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "package",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -52,5 +52,5 @@
     "*.js": ["prettier --write", "eslint --fix", "git add"],
     "*.{json,md}": ["prettier --write", "git add"]
   },
-  "files": ["dist", "package.json", "README.md"]
+  "files": ["dist","index.d.ts", "index.js.flow", "package.json", "README.md"]
 }
