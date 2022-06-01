@@ -1,4 +1,4 @@
-import axios from "axios";
+const axios= require('axios');
 const API_URL = "https://api-shortener-url-with-domain.herokuapp.com/api/v1";
 
 async function shortener(link, domain) {

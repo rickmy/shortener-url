@@ -1,16 +1,16 @@
 {
   "name": "shortener-url-with-domain",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "package",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.mjs",
-  "source": "src/index.cjs",
-  "type": "module",
+  "source": "src/index.js",
   "scripts": {
     "test": "jest",
     "dev": "node src/index.js",
-    "build": "microbundle"
+    "build": "microbundle",
+    "prepublish": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
