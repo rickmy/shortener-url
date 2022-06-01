@@ -1,0 +1,30 @@
+{
+  "name": "shortener-url",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickmy/shortener-url.git"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "domain",
+    "custom"
+  ],
+  "author": "rickmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickmy/shortener-url/issues"
+  },
+  "homepage": "https://github.com/rickmy/shortener-url#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
