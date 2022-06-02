@@ -32,7 +32,7 @@ describe("should return a short link", () => {
 
   it("should return a short link without domain", async () => {
     const link = "https://www.google.com";
-    const domain = "https://shortener.com/01mz";
+    const domain = "littleurl.site/01mz";
     const result = await index.shortener(link).then((url) => {
       return url;
     });
