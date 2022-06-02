@@ -1,6 +1,6 @@
 {
   "name": "shortener-url-with-domain",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "package",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -49,8 +49,21 @@
     }
   },
   "lint-staged": {
-    "*.js": ["prettier --write", "eslint --fix", "git add"],
-    "*.{json,md}": ["prettier --write", "git add"]
+    "*.js": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   },
-  "files": ["dist","index.d.ts", "index.js.flow", "package.json", "README.md"]
+  "files": [
+    "dist",
+    "index.d.ts",
+    "index.js.flow",
+    "package.json",
+    "README.md"
+  ]
 }
